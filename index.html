@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1 >CALCULATOR</h1>
+  <div id="calculator">
+    <input type="text" id="display" readonly>
+    <div class="button-container">
+      <button class="button" onclick="clearr()">c</button>
+      <button class="button" onclick="update('1')">1</button>
+      <button class="button" onclick="update('2')">2</button>
+    </div>
+    <div class="button-container">
+      <button class="button" onclick="update('+')">+</button>
+      <button class="button" onclick="update('3')">3</button>
+      <button class="button" onclick="update('4')">4</button>
+    </div>
+    <div class="button-container">
+      <button class="button" onclick="update('-')">-</button>
+      <button class="button" onclick="update('5')">5</button>
+      <button class="button" onclick="update('6')">6</button>
+    </div>
+    <div class="button-container">
+      <button class="button" onclick="update('*')" >*</button>
+      <button class="button" onclick="update('7')">7</button>
+      <button class="button" onclick="update('8')">8</button>
+    </div>
+    <div class="button-container">
+      <button class="button" onclick="update('/')">/</button>
+      <button class="button" onclick="display()">=</button>
+      <button class="button" onclick="update('9')">9</button>
+    </div>
+    <div class="button-container">
+      <button class="button" onclick="update('0')">0</button>
+      <button class="button" onclick="update('.')">.</button>
+    </div>
+    
+
+  </div>
+
+  <script src="calculator.js"></script>
+
+
+</body>
+</html>
